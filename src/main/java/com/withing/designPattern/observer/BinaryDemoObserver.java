@@ -14,7 +14,7 @@ public class BinaryDemoObserver extends AbstractDemoObserver{
 
     @Override
     public void update() {
-        System.out.println(Integer.toBinaryString(subject.getState()));
+        System.out.println(this.getClass().getSimpleName() + " change state to " + Integer.toBinaryString(subject.getState()));
     }
 
 }

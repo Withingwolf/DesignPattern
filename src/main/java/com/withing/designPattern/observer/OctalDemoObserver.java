@@ -14,6 +14,6 @@ public class OctalDemoObserver extends AbstractDemoObserver{
 
     @Override
     public void update() {
-        System.out.println(Integer.toOctalString(subject.getState()));
+        System.out.println(this.getClass().getSimpleName() + " change state to " + Integer.toOctalString(subject.getState()));
     }
 }

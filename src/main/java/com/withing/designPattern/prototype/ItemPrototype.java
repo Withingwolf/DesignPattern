@@ -22,6 +22,7 @@ public class ItemPrototype {
         phonePrice.setPrice("1000");
         phone.setPrice(phonePrice);
         itemMap.put("1",phone);
+
         PersonalComputer personalComputer = new PersonalComputer();
         Price computerPrice = new Price();
         computerPrice.setPrice("5000");

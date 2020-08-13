@@ -24,6 +24,7 @@ public abstract class Item implements Cloneable {
     }
 
     @Override
+    @SuppressWarnings("all")
     protected Object clone() {
         Object object = null;
         try {
